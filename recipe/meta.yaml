@@ -37,11 +37,3 @@ about:
     license_family: BSD
     license_file: LICENSE
     summary: Matplotlib Jupyter Extension
-
-extra:
-  recipe-maintainers:
-    - JasonGrout
-    - SylvainCorlay
-    - tacaswell
-    - blink1073
-    - martinRenou
