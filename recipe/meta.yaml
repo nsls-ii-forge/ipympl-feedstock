@@ -29,7 +29,7 @@ requirements:
 
 test:
   imports:
-    - {{ name }}
+    - ipympl
 
 about:
   home: https://github.com/matplotlib/jupyter-matplotlib
