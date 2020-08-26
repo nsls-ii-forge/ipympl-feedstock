@@ -1,6 +1,6 @@
 {% set name = "ipympl" %}
-{% set version = "0.3.3" %}
-{% set sha256 = "edf4374806d704f35334260678d2e94db5079a3d5ef75ed88b8fc2a4a080ba54" %}
+{% set version = "0.5.7" %}
+{% set sha256 = "a5e7e8bdc5e97e6397b8507cbbea01c711f770eba903ea87bb5b00bbf4525a32" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON}} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -29,11 +29,11 @@ requirements:
 
 test:
   imports:
-    - {{ name }}
+    - ipympl
 
 about:
-    home: https://github.com/matplotlib/jupyter-matplotlib
-    license: BSD 3-Clause
-    license_family: BSD
-    license_file: LICENSE
-    summary: Matplotlib Jupyter Extension
+  home: https://github.com/matplotlib/jupyter-matplotlib
+  license: BSD 3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: Matplotlib Jupyter Extension
