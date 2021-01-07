@@ -18,8 +18,9 @@ build:
 requirements:
   host:
     - python
-    - jupyter
     - pip
+    - jupyter
+    - jupyter-packaging
   run:
     - python
     - ipywidgets >=7.5.0,<8.0
