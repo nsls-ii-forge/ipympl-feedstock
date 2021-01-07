@@ -21,6 +21,7 @@ requirements:
     - pip
     - jupyter
     - jupyter-packaging
+    - nodejs
   run:
     - python
     - ipywidgets >=7.5.0,<8.0
