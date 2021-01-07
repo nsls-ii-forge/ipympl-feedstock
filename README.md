@@ -5,11 +5,9 @@ Home: https://github.com/matplotlib/jupyter-matplotlib
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/nsls-ii-forge/ipympl-feedstock/blob/master/LICENSE.txt)
 
 Summary: Matplotlib Jupyter Extension
-
-
 
 Current build status
 ====================
